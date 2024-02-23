@@ -1,0 +1,277 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Persol Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/d6fc10e243.js" crossorigin="anonymous"></script>
+        </head>
+
+        <body>
+            <div id="header">
+            <div class="container">
+              <nav>
+              <img src=" " class="logo">
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+              </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+              </nav>
+              <div class="header-text">
+                <p> Computer Programmer</p>
+                <h1>Hi, I'M <span>Sandile</span><br>Bukhosini from South Africa</h1>
+
+              </div>
+
+
+
+            </div>
+
+
+
+            </div>
+          <!---------------About me section---------->
+            <div id="about">
+              <div class="container">
+                <div class="row">
+                  <div class="about-col-1">
+                    <img src="images/user2.png">
+                  </div>
+                  <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                      I am a graduate with a BSc degree in Information technology from the North West University in South Africa. 
+                      I am a full stack software developer who has developed a numerous personal projects hosted on github. I have a very strong passion for software developmentand anything technology in general. I’m also a freelance developer working with Fiverr and UpWork. I believe in skill transfer, as I like teaching people what I know and also learn from them. 
+                                            
+                    </p>
+                    <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>PROGRAMMING LANGUAGES</span><br>C# + Java + Javascript + Html + Css </li>
+                      <li><span>DATABASES</span><br>SQL Server + MySQL DB + Mongo DB</li>
+                      <li><span>DEVELOPMENT ENVIRONMENT/FRAMEWORK/PATTERNS</span><br>Asp.net core + RESTful API + Mvc + Blazor + Mvvm + Wpf 
+                        + WinForms + Node.js + .Net Maui + EntityFrameworkCore</li>
+                        <li><span>OTHER SKILLS</span><br> Uml + Wcf + Unit Testing +
+                          System Analysis and Design + Service Oriented Architecture + 
+                          Artificial Intelligence + Tensor Flow + ChatGPT +
+                          Computer Networks +
+                          Visual Studio + Visual Studio Code + Eclipse
+                          Git + Github +
+                          Wordpress + Elementor +
+                          Communications </li>
+                    </ul>
+
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                      <ul>
+                      <li><span>IT SUPPORT TECHNICIAN (APRIL 2017–JANUARY 2018)</span><br>North West University</li>
+                      <li><span>DIGITIZATION TEAM LEADER (NOVEMBER 2022- JANUARY 2024)</span><br>Department of home affairs</li>
+                      </ul>
+  
+  
+                    </div>
+                    <div class="tab-contents" id="education">
+                      <ul>
+                      <li><span>BSC INFORMATION TECHNOLOGY</span><br>North West University</li>
+                      <li><span>NATIONAL SENIOR CERTIFICATE</span><br>Malabela High School</li>
+                      <li><span>MICROSOFT CERTIFICATE</span><br><a href="https://www.freecodecamp.org/certification/fccc9485ac3-f5e0-4e21-bc8a-037d4740727c/foundational-c-sharp-with-microsoft">Certificate</a></li>
+                      </ul>
+  
+  
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+              
+            
+
+            </div>
+            <!------------------------------------------services------------------------------------------->
+            <div id="services">
+              <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                  <div>
+                    <i class="fa-solid fa-code"></i>
+                  <h2>Web Development</h2>
+                  <p>I develop nice and responsive Websites using Javascript,Html,Css and other third party libraries.
+                    I also develop Websites using Asp.core Mvc framework using C#. It all depend on client's web app requirements.</p>
+                  <a href="https://github.com/SandileBukhosini?tab=repositories/">Learn more</a>
+
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Mobile Development</h2>
+                    <p>I develop mobile apps using C# and .Net Maui framework. This hybrid method saves time a lot and therefore make it quick 
+                      for a project to be completed. Your Android and iOS application will be developed using this approach.
+                    </p>
+                    <a href="https://github.com/SandileBukhosini?tab=repositories">Learn more</a>
+  
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Desktop Development</h2>
+                    <p>If the target is only Desktop application, I use Windows presentation framework(WPF) or Windows forms to develop it in C#.
+                      but if the target is both Mobile and Desktop, your application will be developed in .Net Maui and C#.</p>
+                    <a href="https://github.com/SandileBukhosini?tab=repositories">Learn more</a>
+  
+                  </div>
+
+                </div>
+
+
+              </div>
+              
+
+            </div>
+            <!--------------------------portfolio------------------------------>
+            <div id="Portfolio">
+            <div class="container">
+              <h1 class="sub-title">My Projects</h1>
+              <div class="project-list">
+                <div class="project">
+                  <img src="images/work-1.png">
+                  <div class="layout">
+                    <h2>Web API .Net Core</h2>
+                    <p>The app is based on advance Web API on .net core using C#. Built with EntityFrameworkCore, Swagger, SQL Server Database,
+                      Visual Studio IDE and more.
+                    </p>
+                      <a href="https://github.com/SandileBukhosini/MagicVilla_WebAPI/tree/master/MagicVilla_WebAPI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="images/work-2.png">
+                  <div class="layout">
+                    <h2>My Portfolio Website</h2>
+                    <p>This is my official Website.I used Javascript,HTML and CSS to build this stunning and responsive mordern Website.</p>
+                      <a href="https://github.com/SandileBukhosini/MyPersonalWebsite"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="images/work-3.png">
+                  <div class="layout">
+                    <h2>Weather App</h2>
+                    <p>This weather app provide users with real time data using an API. It can provide users with 3 day weather focust.</p>
+                      <a href="https://github.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+
+              </div>
+              <a href="https://github.com/SandileBukhosini?tab=repositories" class="btn">See More</a>
+            </div>
+
+            </div>
+            <!---------------------------------Contact Page-------------------------------------->
+            <div id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <p><i class="fa-solid fa-envelope"></i><a href="mailto:sandile.bukhosini.sb@gmail.com" style="color: blue;">sandile.bukhosini.sb@gmail.com</a></p>
+                  <p><i class="fa-solid fa-phone"></i><a href="tel:0799636645" style="color: blue;">0799636645</a></p>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/phiwayinkosi-sandile-bukhosini-76456118a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                    <a href="images/my-cv.pdf"download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                  </form>
+                    <span id="msg"></span>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="copyright">
+              <p>Copyright. Made with<i class="fa-solid fa-heart"></i>by Sandile Bukhosini</p>
+
+            </div>
+            </div>
+
+
+            <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+              for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+              }
+              for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+              }
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+
+            </script>
+
+            <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+              sidemenu.style.right = "0";
+
+            }
+              function closemenu(){
+              sidemenu.style.right= "-200px";
+
+            }
+        </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwd-AFyaada4XwkENWWzjOT5uw89Ugprb7O8WJZ_CRFcwr1S5f_I6SYxFXzTPyXh0Qe4A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+               msg.innerHTML = "Message Sent Successfully!"
+               setTimeout(function() {
+                msg.innerHTML = ""
+                
+               },5000)
+               form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+  </script>
+
+              
+            
+        </body>
+
+
+
+
+        </html>
